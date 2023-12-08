@@ -17,7 +17,7 @@ body {
   margin: 150px;
 }
 
-.vizual {
+.product__visual {
   background-image: linear-gradient(#06d7c1, #50cc49);
   padding: 30px;
   border-radius: 30px 0px 0px 30px;
@@ -29,15 +29,7 @@ body {
   box-shadow: 5px 5px 12px #888888;
 }
 
-.slogan {
-  font-family: 'Rubik', sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  color: white;
-  margin: 30px 0px 0px 0px;
-}
-
-.bota {
+.product__img {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -65,7 +57,7 @@ body {
   font-weight: 400;
 }
 
-.detaily {
+.product__detail {
   background-color: white;
   border-radius: 0px 30px 30px 0px;
   position: absolute;
@@ -76,7 +68,7 @@ body {
   box-shadow: 5px 5px 12px #888888;
 }
 
-.nazev {
+.product__name {
   font-family: 'Rubik', sans-serif;
   font-size: 20px;
   font-weight: 500;
@@ -84,33 +76,33 @@ body {
   margin-bottom: 10px;
 }
 
-.produkt {
+.product__type {
   color: #959595;
   margin-bottom: 30px;
   margin-top: 0px;
 }
 
-.popis {
+.product__desc {
   padding-bottom: 30px;
   border-bottom: 1px solid #06d7c1;
 }
 
-.parametr {
+.product__param {
   font-family: 'Rubik', sans-serif;
   font-size: 14px;
   margin-top: 30px;
 }
 
-.velikosti {
+.product__color {
   padding: 0;
 }
 
-.velikosti li {
+.product__color>li {
   display: inline-block;
   margin: 0px 20px 0px 0px;
 }
 
-.vybrana {
+.product__color--selected {
   color: #f15f42;
   border-style: solid;
   border-color: #f15f42;
@@ -120,15 +112,15 @@ body {
   font-weight: bold;
 }
 
-.akce {
+/* .akce {
   position: absolute;
   bottom: 0;
   left: 0;
   margin-left: 30px;
   margin-bottom: 45px;
-}
+} */
 
-.tlacitko {
+.product__btn {
   text-decoration: none;
   color: white;
   background-color: #f15f42;
