@@ -10,6 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap"
       rel="stylesheet"
     />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
     <div class="product">
@@ -18,12 +19,7 @@
           <img src="images/logo.png" alt="logo Lenovo" width="150px" />
         </div>
         <div class="product__img">
-          <img
-            src="images/P32p-2.png"
-            alt="Monitor ThinkVision P32p-20"
-            width="415"
-            height="295"
-          />
+          <img src="images/P32p-2.png" alt="Monitor ThinkVision P32p-20" />
         </div>
       </section>
       <section class="product__detail">
@@ -38,13 +34,16 @@
           skvělou volbou pro práci s grafikou. Antireflexní povrchová úprava
           displeje bude bránit odleskům okolního osvětlení.
         </p>
-        <h2>Barva</h2>
-        <ul class="product__color">
-          <li>grey</li>
-          <li>black</li>
-          <li>white</li>
-          <li class="product__color--selected">red</li>
-        </ul>
+        <section class="product__colorbox">
+          <h2>Barva</h2>
+          <ul class="product__color">
+            <li>grey</li>
+            <li>black</li>
+            <li>white</li>
+            <li class="product__color--selected">red</li>
+          </ul>
+        </section>
+        <div class="product__line"></div>
         <div class="product__flex">
           <button class="product__basket">Do košíku</button>
           <span class="product__price">18.290,-</span>
